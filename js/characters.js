@@ -13,7 +13,7 @@ hero3Click = function () {
   window.location.replace('../html/difficulty-levels.html');
 };
 hero1Click = function () {
-  hero = '../image/PowerPuffOne.png';
+  hero = '../image/LadybugCharacter.png';
   sessionStorage.setItem('hero', hero);
   window.location.replace('../html/difficulty-levels.html');
 };
