@@ -3,7 +3,7 @@ let hero2 = document.getElementById('hero2');
 let hero3 = document.getElementById('hero3');
 let hero;
 hero2Click = function () {
-  hero = '../image/hero2_2.png';
+  hero = '../image/butterfly.png';
   sessionStorage.setItem('hero', hero);
   window.location.replace('../html/difficulty-levels.html');
 };
