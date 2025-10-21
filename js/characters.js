@@ -3,17 +3,17 @@ let hero2 = document.getElementById('hero2');
 let hero3 = document.getElementById('hero3');
 let hero;
 hero2Click = function () {
-  hero = '../image/hero2_2.png';
+  hero = '../image/Butterfly.png';
   sessionStorage.setItem('hero', hero);
   window.location.replace('../html/difficulty-levels.html');
 };
 hero3Click = function () {
-  hero = '../image/hero3_2.png';
+  hero = '../image/Bubblebee.png';
   sessionStorage.setItem('hero', hero);
   window.location.replace('../html/difficulty-levels.html');
 };
 hero1Click = function () {
-  hero = '../image/LadybugCharacter.png';
+  hero = '../image/Ladybug.png';
   sessionStorage.setItem('hero', hero);
   window.location.replace('../html/difficulty-levels.html');
 };
