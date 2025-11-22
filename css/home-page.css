@@ -398,9 +398,17 @@ body.modal-open {
   --color-blue: #44a3f7;
   --color-green: #5acb3c;
   --color-yellow: #debf40;
- /*--color-foreground: var(--color-white);
-  --font-name: Righteous;*/
+  --color-foreground: var(--color-white);
+  --font-name: Righteous;
 }
+
+/* Fix header positioning */
+header {
+  position: relative !important;
+  width: 100%;
+  text-align: center;
+}
+
 
 /*-----------------------------------------------------
 .c-rainbow {
@@ -416,16 +424,13 @@ body.modal-open {
 ------------------------------------------------------*/
 
 .c-rainbow {
-  counter-reset: rainbow;
   position: relative;
-  display: block;
   list-style: none;
   padding: 0;
-  margin: 100px auto 0 auto;
-  z-index: 5;
-  text-align: center;
+  margin: 90px auto 0 auto;
   width: 100%;
-  height: 120px;
+  height: 140px;           /* gives room for the stack */
+  text-align: center;
 }
 
 
@@ -453,25 +458,22 @@ body.modal-open {
 ------------------------------------------------------*/
 
 
+/* each LI layer */
 .c-rainbow__layer {
-  --text-color: var(--color-white);
-  counter-increment: rainbow;
-  color: var(--text-color);
-  text-shadow:
-    -1px -1px 0 var(--color-black),
-    1px -1px 0 var(--color-black),
-    -1px 1px 0 var(--color-black),
-    1px 1px 0 var(--color-black),
-    4px 4px 0 rgba(0, 0, 0, 0.2);
-  animation: rainbow 1.5s ease-in-out infinite;
-  font-size: 85px; /* Smaller to fit "Jumpin' Jungle" */
-  white-space: nowrap;
-  position: absolute;
+  position: absolute;      /* THIS is the key to stacking */
   top: 0;
   left: 0;
   width: 100%;
-  text-align: center;
   font-family: 'Pacifico', cursive;
+  font-size: 90px;         /* close to your old size */
+  white-space: nowrap;
+  text-shadow:
+    -2px -2px 0 var(--color-black),
+     2px -2px 0 var(--color-black),
+    -2px  2px 0 var(--color-black),
+     2px  2px 0 var(--color-black),
+     6px  6px 0 rgba(0,0,0,0.25);
+  animation: rainbow 1.5s ease-in-out infinite;
 }
 
 
@@ -514,41 +516,41 @@ body.modal-open {
 */
 
 /*---------------------------------------------------------------------------
-Rainbow colors for each layer */
-.c-rainbow__layer:nth-child(1) { 
-  animation-delay: calc(1 / var(--delay) * 1s); 
-  z-index: -10;
-  --text-color: var(--color-white);
+/* color + tiny delay offsets */
+.c-rainbow__layer:nth-child(1) {
+  color: var(--color-white);
+  animation-delay: calc(1 / var(--delay) * 1s);
+  transform: translateX(0px);
 }
-.c-rainbow__layer:nth-child(2) { 
-  animation-delay: calc(2 / var(--delay) * 1s); 
-  z-index: -20;
-  --text-color: var(--color-orange);
+.c-rainbow__layer:nth-child(2) {
+  color: var(--color-orange);
+  animation-delay: calc(2 / var(--delay) * 1s);
+  transform: translateX(1px);
 }
-.c-rainbow__layer:nth-child(3) { 
-  animation-delay: calc(3 / var(--delay) * 1s); 
-  z-index: -30;
-  --text-color: var(--color-red);
+.c-rainbow__layer:nth-child(3) {
+  color: var(--color-red);
+  animation-delay: calc(3 / var(--delay) * 1s);
+  transform: translateX(2px);
 }
-.c-rainbow__layer:nth-child(4) { 
-  animation-delay: calc(4 / var(--delay) * 1s); 
-  z-index: -40;
-  --text-color: var(--color-violet);
+.c-rainbow__layer:nth-child(4) {
+  color: var(--color-violet);
+  animation-delay: calc(4 / var(--delay) * 1s);
+  transform: translateX(3px);
 }
-.c-rainbow__layer:nth-child(5) { 
-  animation-delay: calc(5 / var(--delay) * 1s); 
-  z-index: -50;
-  --text-color: var(--color-blue);
+.c-rainbow__layer:nth-child(5) {
+  color: var(--color-blue);
+  animation-delay: calc(5 / var(--delay) * 1s);
+  transform: translateX(4px);
 }
-.c-rainbow__layer:nth-child(6) { 
-  animation-delay: calc(6 / var(--delay) * 1s); 
-  z-index: -60;
-  --text-color: var(--color-green);
+.c-rainbow__layer:nth-child(6) {
+  color: var(--color-green);
+  animation-delay: calc(6 / var(--delay) * 1s);
+  transform: translateX(5px);
 }
-.c-rainbow__layer:nth-child(7) { 
-  animation-delay: calc(7 / var(--delay) * 1s); 
-  z-index: -70;
-  --text-color: var(--color-yellow);
+.c-rainbow__layer:nth-child(7) {
+  color: var(--color-yellow);
+  animation-delay: calc(7 / var(--delay) * 1s);
+  transform: translateX(6px);
 }
 
 
@@ -591,10 +593,4 @@ Rainbow colors for each layer */
   }
 }
 
-/* Fix header positioning */
-header {
-  position: relative !important;
-  width: 100%;
-  text-align: center;
-}
 
