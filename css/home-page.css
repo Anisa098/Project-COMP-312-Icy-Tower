@@ -417,7 +417,7 @@ body.modal-open {
 .c-rainbow {
   counter-reset: rainbow;
   position: relative;
-  display: flex;
+  display: block;
   list-style: none;
   padding: 0;
   margin: 50px auto 0 auto; /* Added top margin and auto for centering */
@@ -452,23 +452,26 @@ body.modal-open {
 ------------------------------------------------------*/
 
 
-.c-rainbow {
-  counter-reset: rainbow;
-  position: relative;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 50px auto 0 auto; /* Added top margin and auto for centering */
-  z-index: 5;
-  box-sizing: border-box;
-  justify-content: center; /* Add this to center */
-  width: 100%; /* Add this */
+.c-rainbow__layer {
+  --text-color: var(--color-foreground);
+  counter-increment: rainbow;
+  color: var(--text-color);
+  text-shadow:
+    -1px -1px 0 var(--color-black),
+    1px -1px 0 var(--color-black),
+    -1px 1px 0 var(--color-black),
+    1px 1px 0 var(--color-black),
+    4px 4px 0 rgba(0, 0, 0, 0.2);
+  animation: rainbow 1.5s ease-in-out infinite;
+  font-size: 100px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
-
-
-
-/*
 .c-rainbow__layer:nth-child(1) {
   animation-delay: calc(1 / var(--delay) * 1s);
   left: calc(var(--axis-x) * 1);
@@ -505,7 +508,6 @@ body.modal-open {
   z-index: -70;
 }
 
-*/
 
 
 
@@ -543,25 +545,5 @@ body.modal-open {
   50% {
     transform: translatey(calc(var(--axis-y) * -1));
   }
-}
-
-/*--------------------------------------------------------------------------------*/
-/* Fix for rainbow text positioning */
-header {
-    position: relative !important; /* Override the inline style */
-    width: 100%;
-    text-align: center;
-    z-index: 100;
-}
-
-.c-rainbow {
-    justify-content: center;
-    margin-top: 50px !important;
-}
-
-.c-rainbow__layer {
-    position: relative !important;
-    left: 0 !important;
-    margin: 0 auto !important;
 }
 
