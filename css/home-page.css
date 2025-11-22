@@ -496,25 +496,3 @@ body.modal-open {
     transform: translatey(calc(var(--axis-y) * -1));
   }
 }
-
-/* Fix for rainbow text positioning */
-header {
-    position: relative !important; /* Override the inline style */
-    width: 100%;
-    text-align: center;
-    z-index: 100;
-}
-
-.c-rainbow {
-    justify-content: center;
-    margin-top: 50px !important;
-}
-
-.c-rainbow__layer {
-    position: relative !important;
-    left: 0 !important;
-    margin: 0 auto !important;
-}
-
-
-
