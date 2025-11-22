@@ -383,8 +383,6 @@ body.modal-open {
     transform: translate(1px, -2px) rotate(0deg);
   }
 }
-
-
 :root {
   --color-background: #31037d;
   --axis-x: 1px;
@@ -401,16 +399,6 @@ body.modal-open {
   --color-foreground: var(--color-white);
   --font-name: Righteous;
 }
-
-/* Fix header positioning */
-header {
-  position: relative !important;
-  width: 100%;
-  text-align: center;
-}
-
-
-/*-----------------------------------------------------
 .c-rainbow {
   counter-reset: rainbow;
   position: relative;
@@ -421,22 +409,6 @@ header {
   z-index: 5;
   box-sizing: border-box;
 }
-------------------------------------------------------*/
-
-.c-rainbow {
-  position: relative;
-  list-style: none;
-  padding: 0;
-  margin: 90px auto 0 auto;
-  width: 100%;
-  height: 140px;           /* gives room for the stack */
-  text-align: center;
-}
-
-
-
-/*-----------------------------------------------------
-
 .c-rainbow__layer {
   --text-color: var(--color-foreground);
   counter-increment: rainbow;
@@ -450,34 +422,10 @@ header {
     4px 4px 0 rgba(0, 0, 0, 0.2);
   animation: rainbow 1.5s ease-in-out infinite;
   font-size: 150px;
-  margin: 15px auto; /* centers it */
-  text-align: center;
-  position: relative;
-  left: 0; /* Rest the left positioning */
+  /* margin: 15px; */
+  margin-left: 110px;
+  margin-top: 10px;
 }
-------------------------------------------------------*/
-
-
-/* each LI layer */
-.c-rainbow__layer {
-  position: absolute;      /* THIS is the key to stacking */
-  top: 0;
-  left: 0;
-  width: 100%;
-  font-family: 'Pacifico', cursive;
-  font-size: 90px;         /* close to your old size */
-  white-space: nowrap;
-  text-shadow:
-    -2px -2px 0 var(--color-black),
-     2px -2px 0 var(--color-black),
-    -2px  2px 0 var(--color-black),
-     2px  2px 0 var(--color-black),
-     6px  6px 0 rgba(0,0,0,0.25);
-  animation: rainbow 1.5s ease-in-out infinite;
-}
-
-
-/*
 .c-rainbow__layer:nth-child(1) {
   animation-delay: calc(1 / var(--delay) * 1s);
   left: calc(var(--axis-x) * 1);
@@ -513,49 +461,6 @@ header {
   left: calc(var(--axis-x) * 7);
   z-index: -70;
 }
-*/
-
-/*---------------------------------------------------------------------------
-/* color + tiny delay offsets */
-.c-rainbow__layer:nth-child(1) {
-  color: var(--color-white);
-  animation-delay: calc(1 / var(--delay) * 1s);
-  transform: translateX(0px);
-}
-.c-rainbow__layer:nth-child(2) {
-  color: var(--color-orange);
-  animation-delay: calc(2 / var(--delay) * 1s);
-  transform: translateX(1px);
-}
-.c-rainbow__layer:nth-child(3) {
-  color: var(--color-red);
-  animation-delay: calc(3 / var(--delay) * 1s);
-  transform: translateX(2px);
-}
-.c-rainbow__layer:nth-child(4) {
-  color: var(--color-violet);
-  animation-delay: calc(4 / var(--delay) * 1s);
-  transform: translateX(3px);
-}
-.c-rainbow__layer:nth-child(5) {
-  color: var(--color-blue);
-  animation-delay: calc(5 / var(--delay) * 1s);
-  transform: translateX(4px);
-}
-.c-rainbow__layer:nth-child(6) {
-  color: var(--color-green);
-  animation-delay: calc(6 / var(--delay) * 1s);
-  transform: translateX(5px);
-}
-.c-rainbow__layer:nth-child(7) {
-  color: var(--color-yellow);
-  animation-delay: calc(7 / var(--delay) * 1s);
-  transform: translateX(6px);
-}
-
-
-
-/*
 .c-rainbow__layer:not(:first-child) {
   position: absolute;
   top: 0;
@@ -581,8 +486,6 @@ header {
 .c-rainbow__layer--yellow {
   --text-color: var(--color-yellow);
 }
-*/
-
 @keyframes rainbow {
   0%,
   100% {
@@ -592,5 +495,3 @@ header {
     transform: translatey(calc(var(--axis-y) * -1));
   }
 }
-
-
