@@ -428,8 +428,8 @@ body.modal-open {
 
   /* NEW centering */
   position: absolute;
-  top: 10;
-  left: 10;
+  top: 0; /* change to 0 it was 10 before and so was left */
+  left: 0;
   width: 100%;
   white-space: nowrap;
   text-align: center;
