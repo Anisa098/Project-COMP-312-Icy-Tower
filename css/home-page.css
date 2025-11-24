@@ -89,7 +89,8 @@ body.modal-open {
   float: right;
   margin-right: 4%;
   margin-top: 2%;
-  pointer-events: auto;
+  position: relative;
+  z-index: 100%
 }
 
 #sign-in {
@@ -233,10 +234,8 @@ body.modal-open {
   font-size: 20px;
   background: white;
   font-family: 'Pacifico', cursive;
-    position: fixed; /* Use fixed positioning */
-    z-index: 9999; /* Very high z-index */
-    top: 20px; /* Position from top */
-    left: 20px; /* Position from left */
+  position: relative;
+  z-index: 1000;
 }
 #open-form:hover {
   transform: scale(1.1);
@@ -407,23 +406,21 @@ body.modal-open {
 .c-rainbow {
   counter-reset: rainbow;
   position: relative;
-  display: flex;
+  display: block;
   list-style: none;
   padding: 0;
   margin: 0;
   z-index: 5;
   box-sizing: border-box;
-  /*width: 100%;*/
-  height: 120px;           /* gives room for the stacked text */
+  width: 100%;
+  height: 170px;           /* gives room for the stacked text */
   text-align: center;
-  pointer-events: none; /* This allows clicks to pass through */
-
 }
 
 .c-rainbow__layer {
   --text-color: var(--color-foreground);
   counter-increment: rainbow;
-  font-size: 80px;        /* keep the big size */
+  font-size: 130px;        /* keep the big size */
   color: var(--text-color);
   text-shadow:
     -1px -1px 0 var(--color-black),
@@ -443,8 +440,10 @@ body.modal-open {
 
   /* REMOVE the old manual centering */
   margin-left: 0;
-  margin-top: 10px;  
-  pointer-events: none; 
+  margin-top: 10px; 
+
+ pointer-events: none;
+ 
 }
 
 .c-rainbow__layer:nth-child(1) {
