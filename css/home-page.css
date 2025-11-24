@@ -417,7 +417,7 @@ body.modal-open {
 .c-rainbow__layer {
   --text-color: var(--color-foreground);
   counter-increment: rainbow;
-  font-size: 150px;        /* keep the big size */
+  font-size: 130px;        /* keep the big size */
   color: var(--text-color);
   text-shadow:
     -1px -1px 0 var(--color-black),
