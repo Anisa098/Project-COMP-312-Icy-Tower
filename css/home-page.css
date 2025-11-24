@@ -89,8 +89,7 @@ body.modal-open {
   float: right;
   margin-right: 4%;
   margin-top: 2%;
-  position: relative;
-  z-index: 1000%
+  pointer-events: auto;
 }
 
 #sign-in {
@@ -418,7 +417,7 @@ body.modal-open {
 .c-rainbow__layer {
   --text-color: var(--color-foreground);
   counter-increment: rainbow;
-  font-size: 130px;        /* keep the big size */
+  font-size: 80px;        /* keep the big size */
   color: var(--text-color);
   text-shadow:
     -1px -1px 0 var(--color-black),
@@ -439,6 +438,7 @@ body.modal-open {
   /* REMOVE the old manual centering */
   margin-left: 0;
   margin-top: 10px;  
+  pointer-events: none; 
 }
 
 .c-rainbow__layer:nth-child(1) {
