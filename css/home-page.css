@@ -89,6 +89,8 @@ body.modal-open {
   float: right;
   margin-right: 4%;
   margin-top: 2%;
+  position: relative;
+  z-index: 100%
 }
 
 #sign-in {
@@ -436,9 +438,7 @@ body.modal-open {
 
   /* REMOVE the old manual centering */
   margin-left: 0;
-  margin-top: 10px;
-  pointer-events: none;
-  
+  margin-top: 10px;  
 }
 
 .c-rainbow__layer:nth-child(1) {
