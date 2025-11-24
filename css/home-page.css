@@ -233,6 +233,10 @@ body.modal-open {
   font-size: 20px;
   background: white;
   font-family: 'Pacifico', cursive;
+    position: fixed; /* Use fixed positioning */
+    z-index: 9999; /* Very high z-index */
+    top: 20px; /* Position from top */
+    left: 20px; /* Position from left */
 }
 #open-form:hover {
   transform: scale(1.1);
