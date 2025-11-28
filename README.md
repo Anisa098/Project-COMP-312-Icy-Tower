@@ -1,4 +1,4 @@
-# Icy Tower Game
+# Jumpin' Jungle Game
 
 An interactive Icy Tower Game built with JavaScript, HTML, and CSS. Let's come together to contribute or play!
 
