@@ -17,7 +17,9 @@ An interactive Jumpin' Jungle Game built with JavaScript, HTML, and CSS. Let's c
 6. choose your level.
 The level influences the speed the tower blocks are mooving and the distance between each two blocks.
 
-![image](https://github.com/chavi362/Icy-Tower/assets/140444217/4aff9fcb-c4d9-4333-b2b8-61c5e80ec51f) 7. start playing!!!
+![image](https://github.com/Anisa098/Project-COMP-312-Icy-Tower/blob/main/image/GameLevels.png) 
+
+7. start playing!!!
 This is the instructions for the game, you can find them also in the project itself
 
 ![image](https://github.com/chavi362/Icy-Tower/assets/140444217/6fa4d7b2-672a-492a-980a-0298c6cf39c4)
