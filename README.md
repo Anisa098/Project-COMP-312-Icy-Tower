@@ -28,7 +28,7 @@ This is the instructions for the game, you can find them also in the project its
 
 ## Project Structure
 
-The Icy Tower Game project is structured as follows:
+The Jumpin' Jungle project is structured as follows:
 
 ```graphql
 ./Jumpin-Jungle/*
@@ -50,7 +50,7 @@ The Icy Tower Game project is structured as follows:
 
 ## Contributing
 
-We welcome contributions from the community to help improve the Jumpin' Jungle Game. If you would like to contribute, please follow these steps:
+We welcome contributions from the community to help improve the Jumpin' Jungle project, as it expands over the Icy Tower. If you would like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
