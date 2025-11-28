@@ -50,13 +50,11 @@ The Icy Tower Game project is structured as follows:
 
 ## Contributing
 
-We welcome contributions from the community to help improve the Icy Tower Game. If you would like to contribute, please follow these steps:
+We welcome contributions from the community to help improve the Jumpin' Jungle Game. If you would like to contribute, please follow these steps:
 
 1. Fork the repository.
-
 2. Create a new branch for your feature or bug fix:
 3. Make your changes and ensure they are working properly.
-
 4. Commit your changes:
 5. Push your changes to your forked repository:
 6. Open a pull request on the main repository, describing your changes and explaining why they are valuable.
