@@ -1,6 +1,6 @@
 # Jumpin' Jungle Game
 
-An interactive Icy Tower Game built with JavaScript, HTML, and CSS. Let's come together to contribute or play!
+An interactive Jumpin' Jungle Game built with JavaScript, HTML, and CSS. Let's come together to contribute or play!
 
 ## Installation
 
