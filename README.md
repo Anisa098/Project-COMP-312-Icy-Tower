@@ -31,7 +31,7 @@ This is the instructions for the game, you can find them also in the project its
 The Icy Tower Game project is structured as follows:
 
 ```graphql
-./Icy-Tower/*
+./Jumpin-Jungle/*
   ├─ css/     - # Contains the CSS files for styling the game interface.
   |
   ├─ html/    - # Contains the HTML files for the game.
