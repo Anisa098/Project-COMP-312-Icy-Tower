@@ -13,6 +13,7 @@ An interactive Jumpin' Jungle Game built with JavaScript, HTML, and CSS. Let's c
 5. choose your favorite charcter
 
 ![image](https://github.com/Anisa098/Project-COMP-312-Icy-Tower/blob/main/image/InstructionsCharacters.png) 
+
 6. choose your level.
 The level influences the speed the tower blocks are mooving and the distance between each two blocks.
 
