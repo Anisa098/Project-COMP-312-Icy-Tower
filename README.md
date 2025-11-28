@@ -22,7 +22,7 @@ The level influences the speed the tower blocks are mooving and the distance bet
 7. start playing!!!
 This is the instructions for the game, you can find them also in the project itself
 
-![image](https://github.com/chavi362/Icy-Tower/assets/140444217/6fa4d7b2-672a-492a-980a-0298c6cf39c4)
+![image](https://github.com/Anisa098/Project-COMP-312-Icy-Tower/blob/main/image/InstructionsForReadME.png)
 
 ### If you find this project helpful or interesting, please give it a <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5263c3c4-c0f7-4fea-9901-ea084be83615/d9izh8z-bc267973-93af-48ee-a6a6-4ee6c9225bd1.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzUyNjNjM2M0LWMwZjctNGZlYS05OTAxLWVhMDg0YmU4MzYxNVwvZDlpemg4ei1iYzI2Nzk3My05M2FmLTQ4ZWUtYTZhNi00ZWU2YzkyMjViZDEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EXdtHcY0K3_YAE6xErW8kOB7M5LqSo9eBgkjhdOgd9s" width="50px">. It means a lot to us!
 
