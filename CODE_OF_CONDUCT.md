@@ -1,4 +1,4 @@
-# Icy Tower Game Code of Conduct
+# Jumpin Jungle Game Code of Conduct
 
 As contributors and community members of the Icy Tower Game project, we pledge to create a welcoming and inclusive environment for all participants. This Code of Conduct outlines our expectations for behavior and sets the ground rules for respectful collaboration.
 
