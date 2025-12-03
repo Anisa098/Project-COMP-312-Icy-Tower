@@ -11,13 +11,28 @@ Our mission for this project:
 - Updated the assests of the game and realigned the structure
 - We practiced real open-source contribution by testing and documentating on our findings
 
-## Installation
+# Overview of Improvements Made
+
+Within this project, we began by forking the original Icy Tower open-source game. The goal when looking through the games layout was navigating how to redesign the game to Jumpin' Jungle. This entailed to use to restructure the layout of the game's login page, homepage, instructions, new game, game scores, and other graphical aspects. The following was done for the changes completed:
+
+## Visuals
+- Rebranded the entire UI to a nature them
+- Planned out what new characters can match the theme
+  Steps for redesigning characters:
+  1. Agreed upon what insects would be the characters
+  2. Drawed out the characters by hand on a platform called Notablility
+     - Characters: Ladybug, Bumblebee, and a Buttlerfly
+  3. Integrated the new graphics into the game accordingly to the HTML and CSS code
+- Updated the hompage layout, login form, and color palette
+
+## Gameplay Levels
+In the game, the user is given three different levels for Beginner, Advanced, and Champion. These are on a range to easy to hard. In this feature, we enusre that our improvements followed through each level especially with our characters. Also, the user is provided with instructions that assoicate with our modernized game of what three steps they should take to play.
+
+# Installation
 
 1. Clone the repository to your local machine:git clone https://github.com/chavi362/Icy-Tower.git
-2. Open `Home-page.html` in your preferred web browser.
-
-3. Register for the game, enter your name and valid email and password, and proceed.
-
+2. **Open** `Home-page.html` in your preferred web browser.
+3. **Register** for the game, enter your name and valid email and password, and proceed.
 4. Choose new game
 5. choose your favorite charcter
 
