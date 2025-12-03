@@ -2,6 +2,15 @@
 
 An interactive Jumpin' Jungle Game built with JavaScript, HTML, and CSS. Let's come together to contribute or play!
 
+# Mission Statement
+
+Our mission for this project:
+- Create an open-source project that shows an interactive and engaging theme
+- Looked at the components of Icy Tower to transform a nature aesthetic and rebranded to Jumpin’ Jungle
+- Strengthen our skills with code, GitHub, and collaboration
+- Updated the assests of the game and realigned the structure
+- We practiced real open-source contribution by testing and documentating on our findings
+
 ## Installation
 
 1. Clone the repository to your local machine:git clone https://github.com/chavi362/Icy-Tower.git
